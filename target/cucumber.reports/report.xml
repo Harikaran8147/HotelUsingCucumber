@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="12.787" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="User should verify the search hotel page" name="Verify User should enter all fields and verify select hotel page - #1.1" time="12.22">
+<system-out><![CDATA[
+Given User is on OMR login page.............................................passed
+When User Login with valid "harikaransrinivasan172000@gmail.com" and "Greens@1234".passed
+Then User should verify the after Login "Welcome Harikaran".................passed
+When User should pass all the fields "Andhra Pradesh" , "Tirupati" , "Deluxe" , "2024-05-09" , "2024-05-10" , "1-One" , "1-One" and "2".passed
+Then User should verify after click the search and success message as "Select Hotel".passed
+]]></system-out>
+</testcase>
+</testsuite>
